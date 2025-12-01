@@ -61,8 +61,8 @@ public class LoginTests {
     public void testLogin() {
 
         driver.get("https://worldofclone.com");
-        String login = "";
-        String password = "";
+        String login = "grosh";
+        String password = "89147105223";
         driver.findElement(loginLocator).sendKeys(login);
         driver.findElement(passwordLocator).sendKeys(password);
         driver.findElement(buttonLocator).click();
@@ -82,8 +82,8 @@ public class LoginTests {
     public void testLogin2() {
 
         driver.get("https://worldofclone.com");
-        String login = "";
-        String password = "";
+        String login = "grosh";
+        String password = "89147105223";
         driver.findElement(loginLocator).sendKeys(login);
         driver.findElement(passwordLocator).sendKeys(password);
         driver.findElement(buttonLocator).click();
